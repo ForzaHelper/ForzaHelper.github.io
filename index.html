@@ -28,27 +28,40 @@
 			height: 5vh;
 			width: 5vh;
 		}
+
+		.overlay{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			z-index: 999;
+			background-color: black;
+			opacity: 0;
+		}
 	</style>
 </head>
 <body>
 	<div class="container-fluid">
+		<div class="overlay justify-content-center align-items-center d-flex">
+			<div id="spinner" class="spinner-border text-light" role="status"></div>
+		</div>
 		<div id="Prompt" class="row justify-content-center align-items-center">
 			<div class="col-auto mt-3">
 				<h1 class="text-info">Paste a lovely screenshot of this adventure's race names.</h1>
 				<h5 class="text-secondary">If paste doesn't work you can try uploading the file like a pleb. <a id="ha" data-toggle="collapse" href="#haha" role="button" class="text-primary">Help! That didn't work either.</a></h5>
 				<h6 id="haha" class="collapse text-secondary">Well then, frankly mate, you're fucked. <a id="hahaha" data-toggle="collapse" href="#hahahaha" role="button" class="text-primary">Maybe this?</a></h6>
 				<h6 id="hahahaha" class="collapse text-secondary">Twice! I got you twice! Oh my god, what a legend. <a id="hahahahaha" data-toggle="collapse" href="#hahahahahaha" role="button" class="text-primary">Third time lucky?</a></h6>
-				
+
 				<input type="file" id="Input" class="mt-3" />
 			</div>
 			<div class="col-12 mt-3 text-center">
-				<div id="spinner" class="spinner-border text-primary invisible" role="status"></div>
 				<div id="hahahahahaha" class="collapse">
-					<img  title="This onion themed adventure has come to an end. Unless?" src="https://i.imgur.com/Kbw5UCd.jpg" />
+					<img title="This onion themed adventure has come to an end. Unless?" src="https://i.imgur.com/Kbw5UCd.jpg" />
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="row justify-content-center">
 			<div class="col-auto">
 				<div id="race1" class="js-race mt-3 d-none shadow" type="button" data-toggle="collapse" data-target="#info1">
@@ -96,6 +109,18 @@
 			}
 		});
 
+		function toggleOverlay(show) {
+			if (show) {
+				$('.overlay').css('z-index', 999);
+				$('.overlay').animate({
+					"opacity": .75
+				}, 300);
+			} else {
+				$('.overlay').css('z-index', -5);
+				$('.overlay').css('opacity', 0);
+			}
+		}
+
 		$('#Input').on('change', function () {
 			var formData = new FormData();
 			formData.append("file", this.files[0]);
@@ -110,13 +135,12 @@
 				processData: false,
 				type: 'POST',
 				beforeSend: function () {
-					$('#spinner').removeClass('invisible');
+					toggleOverlay(true);
 				},
 				success: function (ocrParsedResult) {
-					$('#spinner').addClass('invisible');
 					var parsedResults = ocrParsedResult["ParsedResults"];
 					if (parsedResults != null) {
-						$('#Prompt').remove();
+						$('#Prompt').addClass('d-none');
 
 						$.each(parsedResults, function (index, value) {
 							let parsedText = value["ParsedText"];
@@ -141,8 +165,8 @@
 									}
 								}
 							}
-
 						});
+						toggleOverlay(false);
 					}
 				}
 			});
