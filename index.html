@@ -64,6 +64,7 @@
 
 		<div class="row justify-content-center">
 			<div class="col-auto">
+				<input type="hidden" id="Results" />
 				<div id="race1" class="js-race mt-3 d-none shadow">
 					<img id="img1" class="img-mw" />
 					<div id="info1">
@@ -145,6 +146,8 @@
 						$.each(parsedResults, function (index, value) {
 							let parsedText = value["ParsedText"];
 							let resultsArray = parsedText.split('\r\n');
+
+							$('#Result').html(parsedText);
 
 							let count = 0;
 							for (result in resultsArray) {
