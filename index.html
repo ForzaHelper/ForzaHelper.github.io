@@ -39,12 +39,19 @@
 			background-color: black;
 			opacity: 0;
 		}
+
+		#Reset{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
 	</style>
 </head>
 <body>
 	<div class="overlay justify-content-center align-items-center d-flex">
 		<div id="spinner" class="spinner-border text-light" role="status"></div>
 	</div>
+	<button id="Reset" type="button" class="btn btn-outline-danger m-3 d-none">Reset</button>
 	<div class="container-fluid">
 		<div id="Prompt" class="row justify-content-center align-items-center">
 			<div class="col-auto">
@@ -61,12 +68,13 @@
 				</div>
 			</div>
 			<div class="col-auto text-center">
-				<h1 class="text-info">Find the races manually using these handy tools.</h1>
+				<h1 class="text-info">Find the races by searching for them manually.</h1>
 				<form id="Choices" class="align-items-center d-flex">
-					<input id="Choice" list="Races" class="form-control-inline" autocomplete=off />
+					<input id="Choice" list="Races" class="form-control" autocomplete=off placeholder="e.g. The Colossus" required />
 					<datalist id="Races"></datalist>
 					<button id="Add" type="button" class="btn btn-outline-primary ml-3">&#43;</button>
-					<button id="Go" type="button" class="btn btn-primary ml-3">Go</button>
+					<button id="Remove" type="button" class="btn btn-outline-danger ml-3 d-none">&#8722;</button>
+					<button id="Go" type="submit" class="btn btn-primary ml-3">Go</button>
 				</form>
 				<div id="hahahahahaha" class="collapse">
 					<img title="This onion themed adventure has come to an end. Unless?" src="https://i.imgur.com/Kbw5UCd.jpg" />
@@ -141,6 +149,7 @@
 
 		function displayRaces(raceNames) {
 			$('#Prompt').addClass('d-none');
+			$('#Reset').removeClass('d-none');
 			let count = 0;
 			for (result in raceNames) {
 				let sanitisedText = raceNames[result].replace(/\W/g, '').toLowerCase();
@@ -162,23 +171,37 @@
 			}
 		}
 
-		$('#Go').on('click', function (e) {
+		$('#Choices').on('submit', function (e) {
+			e.preventDefault();
 			let raceNames = [];
 			$('#Choices input').each(function (index, element) {
 				raceNames.push(element.value);
 			});
-
 			displayRaces(raceNames);
 		});
 
 		$('#Add').on('click', function (e) {
-			let html = '<input list="Races" class="form-control-inline ml-3" autocomplete=off />';
+			let html = '<input list="Races" class="form-control ml-3" autocomplete=off required/>';
 			$('#Choices input:last-of-type').after(html);
 
 			if ($('#Choices input').length > 2) {
-				$('#Add').hide();
+				$('#Add').addClass('d-none');
+				$('#Remove').removeClass('d-none');
 			}
 		});
+
+		$('#Remove').on('click', function (e) {
+			$('#Choices input:last-of-type').remove();
+
+			if ($('#Choices input').length < 2) {
+				$('#Add').removeClass('d-none');
+				$('#Remove').addClass('d-none');
+			}
+		});
+
+		$('#Reset').on('click', function () {
+			window.location.reload();
+		})
 
 		$('#Input').on('change', function () {
 			var formData = new FormData();
