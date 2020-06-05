@@ -1,422 +1,338 @@
 {
-    "Ambleside Ascent":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/MzpJVJY.png"
-    },
-    "Ashbrook Apex":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/reWsNkt.png"
-    },
-    "Batham Gate":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/zCVMvW7.png"
-    },
-    "Broadway Crossfire":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/zW61c5Y.png"
-    },
-    "Coastal Charge":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/HqpJUkb.png"
-    },
-    "Derwent Valley Dash":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/8zLuuIB.png"
-    },
-    "Edinburgh New Town":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/IAIPArW.png"
-    },
-    "Edinburgh Stockbridge":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/K2NOKbx.png"
-    },
-    "Edinburgh West End":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/ma4m6nl.png"
-    },
-    "Glenfinnan Chase":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/VhtPhPE.png"
-    },
-    "Holyrood Run":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/UXbxodc.png"
-    },
-    "Lakehurst Rush":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/4P2Qcpf.png"
-    },
-    "Mortimer's Pass":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/K7HZ5xc.png"
-    },
-    "North Coast Rush":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/BKLWlAe.png"
-    },
-    "Otleydale Dash":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/5f6Iw9Q.png"
-    },
-    "Rail Yard Express":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/Ek3nwid.png"
-    },
-    "Reservoir Run":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/9Jo0zhX.png"
-    },
-    "The Highland Charge":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/H18tSyJ.png"
-    },
-    "The Marathon":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/qqTONob.png"
-    },
-    "The Monument Wynds":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/4IWrfoK.png"
-    },
-    "Wind Farm Rush":{
-        "series":"street",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/M2KrAqI.png"
-    },
-    "Ambleside Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/QHFsnRF.png"
-    },
-    "Ambleside Village Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/67oRJv0.png"
-    },
-    "Astmoor Heritage Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/Np43wV9.png"
-    },
-    "Bamburgh Coast Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/Pt4zQAh.png"
-    },
-    "Broadway Village Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/ao8Hyqu.png"
-    },
-    "Cotswolds Super Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/O8bUd39.png"
-    },
-    "Derwent Lakeside Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/cemZ7Ug.png"
-    },
-    "Derwent Reservoir Sprint":{
-        "series":"road",
-        "info":"Pretty fast, some nasty turns. Clear roads in winter.",
-        "img":"https://i.imgur.com/jA8oVfW.png"
-    },
-    "Edinburgh City Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/fw4G4NX.png"
-    },
-    "Edinburgh Station Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/iQkGZvA.png"
-    },
-    "Elmsdon On Sea Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/1uROWOG.png"
-    },
-    "Glen Rannoch Hillside Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/z2pf6n5.png"
-    },
-    "Greendale Club Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/My16r7j.png"
-    },
-    "Greendale Super Sprint":{
-        "series":"road",
-        "info":"Corners at the start. Fast middle to end. Mostly clear roads in winter.",
-        "img":"https://i.imgur.com/CEqkCzR.png"
-    },
-    "Holyrood Park Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/E1Qcp51.png"
-    },
-    "Horizon Festival Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/sauvrRv.png"
-    },
-    "Lake District Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/XRTBU8D.png"
-    },
-    "Lakehurst Copse Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/5NRB7ZC.png"
-    },
-    "Lakehurst Forest Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/nINGLLp.png"
-    },
-    "Moorhead Wind Farm Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/55ZcVRR.png"
-    },
-    "Princes Street Gardens Circuit":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/FK1jLVx.png"
-    },
-    "The Colossus":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/1UXRB0m.png"
-    },
-    "The Meadows Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/h5IMlos.png"
-    },
-    "Waterhead Sprint":{
-        "series":"road",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/VA5zCb7.png"
-    },
-    "Aerodrome Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/mqPPTX7.png"
-    },
-    "Ambleside Loop Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/OUBIOx7.png"
-    },
-    "Ambleside Rush Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/ROSi2xA.png"
-    },
-    "Arthurs Seat Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/IhFBezQ.png"
-    },
-    "Beach View Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/8TJ26Jo.png"
-    },
-    "Castle Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/wuksfnd.png"
-    },
-    "City Outskirts Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/IMyOFFp.png"
-    },
-    "Coastal Rush Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/0XXVN80.png"
-    },
-    "Gardens Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/Y9jxt16.png"
-    },
-    "Glen Rannoch Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/7M7JJK5.png"
-    },
-    "Mountain Foot Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/KlgxjM1.png"
-    },
-    "North City Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/ohLGQlU.png"
-    },
-    "Quarry Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/q4fctHN.png"
-    },
-    "Rail Yard Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/MxZZ4Ce.png"
-    },
-    "Riverbank Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/o5KMqIU.png"
-    },
-    "The Ridge Cross Country Circuit":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/1f5iO5i.png"
-    },
-    "The Titan":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/0JlZESN.png"
-    },
-    "Whitewater Falls Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/BsdVlsC.png"
-    },
-    "Windmill Cross Country":{
-        "series":"cross country",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/RsfoiB2.png"
-    },
-    "Ambleside Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/24JAQsm.png"
-    },
-    "Ashbrook Loop Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/CxIDOzb.png"
-    },
-    "Astmoor Rally Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/xDydc3Y.png"
-    },
-    "Bamburgh Pinewood Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/iqn7Ukw.png"
-    },
-    "Broadway Village Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/eXyskEg.png"
-    },
-    "Cotswolds Road Rally Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/L50bqqV.png"
-    },
-    "Derwent Reservoir Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/2l3g5nr.png"
-    },
-    "Derwentwater Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/xb2ST8s.png"
-    },
-    "Glen Rannoch Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/aH4ykUg.png"
-    },
-    "Greendale Foothills Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/IdbG6A6.png"
-    },
-    "Highland Farm Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/yZXRJkH.png"
-    },
-    "Holyrood Park Trail":{
-        "series":"dirt",
-        "info":"Mostly tarmac. Short technical dirt switchbacks near start. Clear roads in winter.",
-        "img":"https://i.imgur.com/r7qqDrq.png"
-    },
-    "Lakehurst Forest Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/duKU54x.png"
-    },
-    "Lakehurst Woodland Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/yQA5O6H.png"
-    },
-    "Moorhead Rally Trail":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/SNrQGC5.png"
-    },
-    "Mortimer Gardens Scramble":{
-        "series":"dirt",
-        "info":"Small and technical. Very snowy in winter!",
-        "img":"https://i.imgur.com/owIobux.png"
-    },
-    "Mudkickers 4x4 Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/hwJhmmS.png"
-    },
-    "Tarn Hows Scramble":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/3COjHM8.png"
-    },
-    "The Gauntlet":{
-        "series":"dirt",
-        "info":"some helpful info",
-        "img":"https://i.imgur.com/IrP4cIx.png"
-    },
-    "White Horse Hill Trail":{
-        "series":"dirt",
-        "info":"Fast tarmac start. Dirt in the middle for a tiny bit. Tarmac finish. Clean roads in winter.",
-        "img":"https://i.imgur.com/IzsgUQS.png"
-    }
+	"AmblesideAscent":{
+		"series":"street",
+		"info":""
+	},
+	"AshbrookApex":{
+		"series":"street",
+		"info":""
+	},
+	"BathamGate":{
+		"series":"street",
+		"info":""
+	},
+	"BroadwayCrossfire":{
+		"series":"street",
+		"info":""
+	},
+	"CoastalCharge":{
+		"series":"street",
+		"info":""
+	},
+	"DerwentValleyDash":{
+		"series":"street",
+		"info":""
+	},
+	"EdinburghNewTown":{
+		"series":"street",
+		"info":""
+	},
+	"EdinburghStockbridge":{
+		"series":"street",
+		"info":""
+	},
+	"EdinburghWestEnd":{
+		"series":"street",
+		"info":""
+	},
+	"GlenfinnanChase":{
+		"series":"street",
+		"info":""
+	},
+	"HolyroodRun":{
+		"series":"street",
+		"info":""
+	},
+	"LakehurstRush":{
+		"series":"street",
+		"info":""
+	},
+	"MortimersPass":{
+		"series":"street",
+		"info":""
+	},
+	"NorthCoastRush":{
+		"series":"street",
+		"info":""
+	},
+	"OtleydaleDash":{
+		"series":"street",
+		"info":""
+	},
+	"RailYardExpress":{
+		"series":"street",
+		"info":""
+	},
+	"ReservoirRun":{
+		"series":"street",
+		"info":""
+	},
+	"TheHighlandCharge":{
+		"series":"street",
+		"info":""
+	},
+	"TheMarathon":{
+		"series":"street",
+		"info":""
+	},
+	"TheMonumentWynds":{
+		"series":"street",
+		"info":""
+	},
+	"WindFarmRush":{
+		"series":"street",
+		"info":""
+	},
+	"AmblesideSprint":{
+		"series":"road",
+		"info":""
+	},
+	"AmblesideVillageCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"AstmoorHeritageCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"BamburghCoastCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"BroadwayVillageCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"CotswoldsSuperSprint":{
+		"series":"road",
+		"info":""
+	},
+	"DerwentLakesideSprint":{
+		"series":"road",
+		"info":""
+	},
+	"Derwent Reservoir Sprint":{
+		"series":"road",
+		"info":"Pretty fast, some nasty turns. Clear roads in winter."
+	},
+	"EdinburghCitySprint":{
+		"series":"road",
+		"info":""
+	},
+	"EdinburghStationCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"ElmsdonOnSeaSprint":{
+		"series":"road",
+		"info":""
+	},
+	"GlenRannochHillsideSprint":{
+		"series":"road",
+		"info":""
+	},
+	"GreendaleClubCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"Greendale Super Sprint":{
+		"series":"road",
+		"info":"Corners at the start. Fast middle to end. Mostly clear roads in winter."
+	},
+	"HolyroodParkCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"HorizonFestivalCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"LakeDistrictSprint":{
+		"series":"road",
+		"info":""
+	},
+	"LakehurstCopseCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"LakehurstForestSprint":{
+		"series":"road",
+		"info":""
+	},
+	"MoorheadWindFarmCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"PrincesStreetGardensCircuit":{
+		"series":"road",
+		"info":""
+	},
+	"TheColossus":{
+		"series":"road",
+		"info":""
+	},
+	"TheMeadowsSprint":{
+		"series":"road",
+		"info":""
+	},
+	"WaterheadSprint":{
+		"series":"road",
+		"info":""
+	},
+	"AerodromeCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"AmblesideLoopCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"AmblesideRushCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"ArthursSeatCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"BeachViewCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"CastleCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"CityOutskirtsCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"CoastalRushCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"GardensCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"GlenRannochCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"MountainFootCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"NorthCityCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"QuarryCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"RailYardCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"RiverbankCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"TheRidgeCrossCountryCircuit":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"TheTitan":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"WhitewaterFallsCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"WindmillCrossCountry":{
+		"series":"crosscountry",
+		"info":""
+	},
+	"AmblesideScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"AshbrookLoopScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"AstmoorRallyTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"BamburghPinewoodTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"BroadwayVillageScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"CotswoldsRoadRallyTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"DerwentReservoirTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"DerwentwaterTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"GlenRannochTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"GreendaleFoothillsScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"HighlandFarmScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"HolyroodParkTrail":{
+		"series":"dirt",
+		"info":"Mostly tarmac. Short technical dirt switchbacks near start. Clear roads in winter."
+	},
+	"LakehurstForestTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"LakehurstWoodlandScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"MoorheadRallyTrail":{
+		"series":"dirt",
+		"info":""
+	},
+	"MortimerGardensScramble":{
+		"series":"dirt",
+		"info":"Small and technical. Very snowy in winter!"
+	},
+	"Mudkickers4x4Scramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"TarnHowsScramble":{
+		"series":"dirt",
+		"info":""
+	},
+	"TheGauntlet":{
+		"series":"dirt",
+		"info":""
+	},
+	"WhiteHorseHillTrail":{
+		"series":"dirt",
+		"info":"Fast tarmac start. Dirt in the middle for a tiny bit. Tarmac finish. Clean roads in winter."
+	}
 }

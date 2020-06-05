@@ -116,7 +116,7 @@
 	$(function () {
 		let races;
 		$.ajax({
-			url: 'https://forzahelper.github.io/races.JSON',
+			url: '/races.JSON',
 			type: 'GET',
 			dataType: 'json',
 			success: function (response) {
@@ -155,7 +155,8 @@
 
 						let imgId = 'img' + count;
 						let imgElement = document.getElementById(imgId);
-						imgElement.src = races[race]['img'];
+						let series = races[race]['series'];
+						imgElement.src = `tracks/${series}/${race}.png`;
 
 						$('#info' + count + ' .card-body').html(races[race]['info']);
 						$('#race' + count).removeClass('d-none');
