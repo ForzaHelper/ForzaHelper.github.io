@@ -17,12 +17,12 @@
 	"BroadwayCrossfire":{
 		"series":"street",
 		"name": "Broadway Crossfire",
-		"info":""
+	  "info": "Turny start, fast end. Clear roads winter."
 	},
 	"CoastalCharge":{
 		"series":"street",
 		"name": "Coastal Charge",
-		"info":""
+		"info":"Pretty fast, watch out for the bridges. Clear roads winter."
 	},
 	"DerwentValleyDash":{
 		"series":"street",
@@ -32,7 +32,7 @@
 	"EdinburghNewTown":{
 		"series":"street",
 		"name": "Edinburgh New Town",
-		"info":""
+		"info":"Slow and cornery. Clear roads in winter."
 	},
 	"EdinburghStockbridge":{
 		"series":"street",
@@ -262,12 +262,12 @@
 	"CoastalRushCrossCountry":{
 		"series":"crosscountry",
 		"name": "Coastal Rush Cross Country",
-		"info":""
+		"info":"Really fast paced cross country, with a few dodgy jumps."
 	},
 	"GardensCrossCountryCircuit":{
 		"series":"crosscountry",
 		"name": "Gardens Cross Country Circuit",
-		"info":""
+		"info":"Low speed technical track. Snowy in winter."
 	},
 	"GlenRannochCrossCountry":{
 		"series":"crosscountry",
