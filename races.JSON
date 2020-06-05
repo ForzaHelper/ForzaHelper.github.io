@@ -1,338 +1,422 @@
 {
 	"AmblesideAscent":{
 		"series":"street",
+		"name": "Ambleside Ascent",
 		"info":""
 	},
 	"AshbrookApex":{
 		"series":"street",
+		"name": "Ashbrook Apex",
 		"info":""
 	},
 	"BathamGate":{
 		"series":"street",
+		"name": "Batham Gate",
 		"info":""
 	},
 	"BroadwayCrossfire":{
 		"series":"street",
+		"name": "Broadway Crossfire",
 		"info":""
 	},
 	"CoastalCharge":{
 		"series":"street",
+		"name": "Coastal Charge",
 		"info":""
 	},
 	"DerwentValleyDash":{
 		"series":"street",
+		"name": "Derwent Valley Dash",
 		"info":""
 	},
 	"EdinburghNewTown":{
 		"series":"street",
+		"name": "Edinburgh New Town",
 		"info":""
 	},
 	"EdinburghStockbridge":{
 		"series":"street",
+		"name": "Edinburgh Stockbridge",
 		"info":""
 	},
 	"EdinburghWestEnd":{
 		"series":"street",
+		"name": "Edinburgh West End",
 		"info":""
 	},
 	"GlenfinnanChase":{
 		"series":"street",
+		"name": "Glenfinnan Chase",
 		"info":""
 	},
 	"HolyroodRun":{
 		"series":"street",
+		"name": "Holyrood Run",
 		"info":""
 	},
 	"LakehurstRush":{
 		"series":"street",
+		"name": "Lakehurst Rush",
 		"info":""
 	},
 	"MortimersPass":{
 		"series":"street",
+		"name": "Mortimer's Pass",
 		"info":""
 	},
 	"NorthCoastRush":{
 		"series":"street",
+		"name": "North Coast Rush",
 		"info":""
 	},
 	"OtleydaleDash":{
 		"series":"street",
+		"name": "Otleydale Dash",
 		"info":""
 	},
 	"RailYardExpress":{
 		"series":"street",
+		"name": "Rail Yard Express",
 		"info":""
 	},
 	"ReservoirRun":{
 		"series":"street",
+		"name": "Reservoir Run",
 		"info":""
 	},
 	"TheHighlandCharge":{
 		"series":"street",
+		"name": "The Highland Charge",
 		"info":""
 	},
 	"TheMarathon":{
 		"series":"street",
+		"name": "The Marathon",
 		"info":""
 	},
 	"TheMonumentWynds":{
 		"series":"street",
+		"name": "The Monument Wynds",
 		"info":""
 	},
 	"WindFarmRush":{
 		"series":"street",
+		"name": "Wind Farm Rush",
 		"info":""
 	},
 	"AmblesideSprint":{
 		"series":"road",
+		"name": "Ambleside Sprint",
 		"info":""
 	},
 	"AmblesideVillageCircuit":{
 		"series":"road",
+		"name": "Ambleside Village Circuit",
 		"info":""
 	},
 	"AstmoorHeritageCircuit":{
 		"series":"road",
+		"name": "Astmoor Heritage Circuit",
 		"info":""
 	},
 	"BamburghCoastCircuit":{
 		"series":"road",
+		"name": "Bamburgh Coast Circuit",
 		"info":""
 	},
 	"BroadwayVillageCircuit":{
 		"series":"road",
+		"name": "Broadway Village Circuit",
 		"info":""
 	},
 	"CotswoldsSuperSprint":{
 		"series":"road",
+		"name": "Cotswolds Super Sprint",
 		"info":""
 	},
 	"DerwentLakesideSprint":{
 		"series":"road",
+		"name": "Derwent Lakeside Sprint",
 		"info":""
 	},
-	"Derwent Reservoir Sprint":{
+	"DerwentReservoirSprint":{
 		"series":"road",
+		"name": "Derwent Reservoir Sprint",
 		"info":"Pretty fast, some nasty turns. Clear roads in winter."
 	},
 	"EdinburghCitySprint":{
 		"series":"road",
+		"name": "Edinburgh City Sprint",
 		"info":""
 	},
 	"EdinburghStationCircuit":{
 		"series":"road",
+		"name": "Edinburgh Station Circuit",
 		"info":""
 	},
 	"ElmsdonOnSeaSprint":{
 		"series":"road",
+		"name": "Elmsdon On Sea Sprint",
 		"info":""
 	},
 	"GlenRannochHillsideSprint":{
 		"series":"road",
+		"name": "Glen Rannoch Hillside Sprint",
 		"info":""
 	},
 	"GreendaleClubCircuit":{
 		"series":"road",
+		"name": "Greendale Club Circuit",
 		"info":""
 	},
-	"Greendale Super Sprint":{
+	"GreendaleSuperSprint":{
 		"series":"road",
+		"name": "Greendale Super Sprint",
 		"info":"Corners at the start. Fast middle to end. Mostly clear roads in winter."
 	},
 	"HolyroodParkCircuit":{
 		"series":"road",
+		"name": "Holyrood Park Circuit",
 		"info":""
 	},
 	"HorizonFestivalCircuit":{
 		"series":"road",
+		"name": "Horizon Festival Circuit",
 		"info":""
 	},
 	"LakeDistrictSprint":{
 		"series":"road",
+		"name": "Lake District Sprint",
 		"info":""
 	},
 	"LakehurstCopseCircuit":{
 		"series":"road",
+		"name": "Lakehurst Copse Circuit",
 		"info":""
 	},
 	"LakehurstForestSprint":{
 		"series":"road",
+		"name": "Lakehurst Forest Sprint",
 		"info":""
 	},
 	"MoorheadWindFarmCircuit":{
 		"series":"road",
+		"name": "Moorhead Wind Farm Circuit",
 		"info":""
 	},
 	"PrincesStreetGardensCircuit":{
 		"series":"road",
+		"name": "Princes Street Gardens Circuit",
 		"info":""
 	},
 	"TheColossus":{
 		"series":"road",
+		"name": "The Colossus",
 		"info":""
 	},
 	"TheMeadowsSprint":{
 		"series":"road",
+		"name": "TheMeadows Sprint",
 		"info":""
 	},
 	"WaterheadSprint":{
 		"series":"road",
+		"name": "Waterhead Sprint",
 		"info":""
 	},
 	"AerodromeCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "Aerodrome Cross Country Circuit",
 		"info":""
 	},
 	"AmblesideLoopCrossCountry":{
 		"series":"crosscountry",
+		"name": "Ambleside Loop Cross Country",
 		"info":""
 	},
 	"AmblesideRushCrossCountry":{
 		"series":"crosscountry",
+		"name": "Ambleside Rush Cross Country",
 		"info":""
 	},
 	"ArthursSeatCrossCountry":{
 		"series":"crosscountry",
+		"name": "Arthurs Seat Cross Country",
 		"info":""
 	},
 	"BeachViewCrossCountry":{
 		"series":"crosscountry",
+		"name": "Beach View Cross Country",
 		"info":""
 	},
 	"CastleCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "Castle Cross Country Circuit",
 		"info":""
 	},
 	"CityOutskirtsCrossCountry":{
 		"series":"crosscountry",
+		"name": "City Outskirts Cross Country",
 		"info":""
 	},
 	"CoastalRushCrossCountry":{
 		"series":"crosscountry",
+		"name": "Coastal Rush Cross Country",
 		"info":""
 	},
 	"GardensCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "Gardens Cross Country Circuit",
 		"info":""
 	},
 	"GlenRannochCrossCountry":{
 		"series":"crosscountry",
+		"name": "Glen Rannoch Cross Country",
 		"info":""
 	},
 	"MountainFootCrossCountry":{
 		"series":"crosscountry",
+		"name": "Mountain Foot Cross Country",
 		"info":""
 	},
 	"NorthCityCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "North City Cross Country Circuit",
 		"info":""
 	},
 	"QuarryCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "Quarry Cross Country Circuit",
 		"info":""
 	},
 	"RailYardCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "Rail Yard Cross Country Circuit",
 		"info":""
 	},
 	"RiverbankCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "Riverbank Cross Country Circuit",
 		"info":""
 	},
 	"TheRidgeCrossCountryCircuit":{
 		"series":"crosscountry",
+		"name": "The Ridge Cross Country Circuit",
 		"info":""
 	},
 	"TheTitan":{
 		"series":"crosscountry",
+		"name": "The Titan",
 		"info":""
 	},
 	"WhitewaterFallsCrossCountry":{
 		"series":"crosscountry",
+		"name": "Whitewater Falls Cross Country",
 		"info":""
 	},
 	"WindmillCrossCountry":{
 		"series":"crosscountry",
+		"name": "Windmill Cross Country",
 		"info":""
 	},
 	"AmblesideScramble":{
 		"series":"dirt",
+		"name": "Ambleside Scramble",
 		"info":""
 	},
 	"AshbrookLoopScramble":{
 		"series":"dirt",
+		"name": "Ashbrook Loop Scramble",
 		"info":""
 	},
 	"AstmoorRallyTrail":{
 		"series":"dirt",
+		"name": "Astmoor Rally Trail",
 		"info":""
 	},
 	"BamburghPinewoodTrail":{
 		"series":"dirt",
+		"name": "Bamburgh Pinewood Trail",
 		"info":""
 	},
 	"BroadwayVillageScramble":{
 		"series":"dirt",
+		"name": "Broadway Village Scramble",
 		"info":""
 	},
 	"CotswoldsRoadRallyTrail":{
 		"series":"dirt",
+		"name": "Cotswolds Road Rally Trail",
 		"info":""
 	},
 	"DerwentReservoirTrail":{
 		"series":"dirt",
+		"name": "Derwent Reservoir Trail",
 		"info":""
 	},
 	"DerwentwaterTrail":{
 		"series":"dirt",
+		"name": "Derwentwater Trail",
 		"info":""
 	},
 	"GlenRannochTrail":{
 		"series":"dirt",
+		"name": "GlenRannoch Trail",
 		"info":""
 	},
 	"GreendaleFoothillsScramble":{
 		"series":"dirt",
+		"name": "Greendale Foothills Scramble",
 		"info":""
 	},
 	"HighlandFarmScramble":{
 		"series":"dirt",
+		"name": "Highland Farm Scramble",
 		"info":""
 	},
 	"HolyroodParkTrail":{
 		"series":"dirt",
+		"name": "Holyrood Park Trail",
 		"info":"Mostly tarmac. Short technical dirt switchbacks near start. Clear roads in winter."
 	},
 	"LakehurstForestTrail":{
 		"series":"dirt",
+		"name": "Lakehurst Forest Trail",
 		"info":""
 	},
 	"LakehurstWoodlandScramble":{
 		"series":"dirt",
+		"name": "Lakehurst Woodland Scramble",
 		"info":""
 	},
 	"MoorheadRallyTrail":{
 		"series":"dirt",
+		"name": "Moorhead Rally Trail",
 		"info":""
 	},
 	"MortimerGardensScramble":{
 		"series":"dirt",
+		"name": "Mortimer Gardens Scramble",
 		"info":"Small and technical. Very snowy in winter!"
 	},
 	"Mudkickers4x4Scramble":{
 		"series":"dirt",
+		"name": "Mudkickers' 4x4 Scramble",
 		"info":""
 	},
 	"TarnHowsScramble":{
 		"series":"dirt",
+		"name": "Tarn Hows Scramble",
 		"info":""
 	},
 	"TheGauntlet":{
 		"series":"dirt",
+		"name": "The Gauntlet",
 		"info":""
 	},
 	"WhiteHorseHillTrail":{
 		"series":"dirt",
+		"name": "White Horse Hill Trail",
 		"info":"Fast tarmac start. Dirt in the middle for a tiny bit. Tarmac finish. Clean roads in winter."
 	}
 }
