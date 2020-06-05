@@ -57,7 +57,7 @@
 	"LakehurstRush":{
 		"series":"street",
 		"name": "Lakehurst Rush",
-		"info":""
+		"info":"Fast. Horribly snowy in winter."
 	},
 	"MortimersPass":{
 		"series":"street",
@@ -87,7 +87,7 @@
 	"TheHighlandCharge":{
 		"series":"street",
 		"name": "The Highland Charge",
-		"info":""
+		"info": "Pretty fast. Snowy in winter."
 	},
 	"TheMarathon":{
 		"series":"street",
