@@ -35,23 +35,16 @@
 			left: 0;
 			width: 100vw;
 			height: 100vh;
-			z-index: -5;
 			background-color: black;
-			opacity: 0;
-		}
-
-		#Reset{
-			position: fixed;
-			top: 0px;
-			left: 0px;
+			opacity: 0.75;
+			z-index: 999;
 		}
 	</style>
 </head>
 <body>
-	<div class="overlay justify-content-center align-items-center d-flex">
+	<div class="overlay justify-content-center align-items-center d-none">
 		<div id="spinner" class="spinner-border text-light" role="status"></div>
 	</div>
-	<button id="Reset" type="button" class="btn btn-outline-danger m-3 d-none">Reset</button>
 	<div class="container-fluid">
 		<div id="Prompt" class="row justify-content-center align-items-center">
 			<div class="col-auto">
@@ -84,6 +77,7 @@
 
 		<div class="row justify-content-center">
 			<div class="col-auto">
+				<button type="button" id="Reset" class="btn btn-primary form-control d-none mt-3">Back to Search</button>
 				<input type="hidden" id="Result" />
 				<div id="race1" class="js-race mt-3 d-none shadow">
 					<img id="img1" class="img-mw" />
@@ -137,13 +131,9 @@
 
 		function toggleOverlay(show) {
 			if (show) {
-				$('.overlay').css('z-index', 999);
-				$('.overlay').animate({
-					"opacity": .75
-				}, 300);
+				$('.overlay').addClass('d-flex').removeClass('d-none');
 			} else {
-				$('.overlay').css('z-index', -5);
-				$('.overlay').css('opacity', 0);
+				$('.overlay').addClass('d-none').removeClass('d-flex');
 			}
 		}
 
@@ -154,7 +144,10 @@
 			for (result in raceNames) {
 				let sanitisedText = raceNames[result].replace(/\W/g, '').toLowerCase();
 				for (var race in races) {
-					if (count > 2) return;
+					if (count > 2) {
+						toggleOverlay(false);
+						return;
+					}
 
 					let raceLower = race.replace(/\W/g, '').toLowerCase()
 					if (sanitisedText.indexOf(raceLower) > -1) {
@@ -169,11 +162,13 @@
 					}
 				}
 			}
+			toggleOverlay(false);
 		}
 
 		$('#Choices').on('submit', function (e) {
 			e.preventDefault();
 			let raceNames = [];
+			toggleOverlay(true);
 			$('#Choices input').each(function (index, element) {
 				raceNames.push(element.value);
 			});
@@ -190,6 +185,12 @@
 			}
 		});
 
+		$('#Reset').on('click', function () {
+			$('#Prompt').removeClass('d-none');
+			$('#Reset').addClass('d-none');
+			$('.js-race').addClass('d-none');
+		});
+
 		$('#Remove').on('click', function (e) {
 			$('#Choices input:last-of-type').remove();
 
@@ -198,10 +199,6 @@
 				$('#Remove').addClass('d-none');
 			}
 		});
-
-		$('#Reset').on('click', function () {
-			window.location.reload();
-		})
 
 		$('#Input').on('change', function () {
 			var formData = new FormData();
@@ -222,15 +219,11 @@
 				success: function (ocrParsedResult) {
 					var parsedResults = ocrParsedResult["ParsedResults"];
 					if (parsedResults != null) {
-						$.each(parsedResults, function (index, value) {
-							let parsedText = value["ParsedText"];
-							let resultsArray = parsedText.split('\r\n');
-
-							$('#Result').html(parsedText);
-
-							displayRaces(resultsArray);
-						});
-						toggleOverlay(false);
+						let parsedText = parsedResults[0]["ParsedText"];
+						let resultsArray = parsedText.split('\r\n');
+						$('#Result').html(parsedText);
+						debugger;
+						displayRaces(resultsArray);
 					}
 				}
 			});
