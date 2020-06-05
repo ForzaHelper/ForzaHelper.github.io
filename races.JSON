@@ -42,7 +42,7 @@
 	"EdinburghWestEnd":{
 		"series":"street",
 		"name": "Edinburgh West End",
-		"info":""
+		"info":"Medium speed start, very fast once you get out of the city. Roads clear in winter."
 	},
 	"GlenfinnanChase":{
 		"series":"street",
@@ -202,7 +202,7 @@
 	"MoorheadWindFarmCircuit":{
 		"series":"road",
 		"name": "Moorhead Wind Farm Circuit",
-		"info":""
+		"info":"Reasonably fast. Snowy in winter."
 	},
 	"PrincesStreetGardensCircuit":{
 		"series":"road",
@@ -217,7 +217,7 @@
 	"TheMeadowsSprint":{
 		"series":"road",
 		"name": "TheMeadows Sprint",
-		"info":""
+		"info":"Fast track. Clear in winter."
 	},
 	"WaterheadSprint":{
 		"series":"road",
