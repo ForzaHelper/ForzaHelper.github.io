@@ -252,7 +252,7 @@
 	"CastleCrossCountryCircuit":{
 		"series":"crosscountry",
 		"name": "Castle Cross Country Circuit",
-		"info":""
+		"info":"Unpleasant jump at the castle."
 	},
 	"CityOutskirtsCrossCountry":{
 		"series":"crosscountry",
@@ -337,7 +337,7 @@
 	"BamburghPinewoodTrail":{
 		"series":"dirt",
 		"name": "Bamburgh Pinewood Trail",
-		"info":""
+		"info":"Mostly dirt for once, quite fast for dirt with a few tight corners reasonably spaced."
 	},
 	"BroadwayVillageScramble":{
 		"series":"dirt",
