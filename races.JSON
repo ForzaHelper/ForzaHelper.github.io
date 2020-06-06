@@ -27,7 +27,7 @@
 	"DerwentValleyDash":{
 		"series":"street",
 		"name": "Derwent Valley Dash",
-		"info":""
+		"info":"A few early tight ones followed by fast sweeping corners with one sharp left onto the reservoir road."
 	},
 	"EdinburghNewTown":{
 		"series":"street",
@@ -72,12 +72,12 @@
 	"OtleydaleDash":{
 		"series":"street",
 		"name": "Otleydale Dash",
-		"info":""
+		"info":"Fast overall, some real nasty corners to begin with, opens up near the end."
 	},
 	"RailYardExpress":{
 		"series":"street",
 		"name": "Rail Yard Express",
-		"info":""
+		"info":"Average pace, watch out for the house turn..."
 	},
 	"ReservoirRun":{
 		"series":"street",
@@ -322,7 +322,7 @@
 	"AmblesideScramble":{
 		"series":"dirt",
 		"name": "Ambleside Scramble",
-		"info":""
+		"info":"Very slow, very technical."
 	},
 	"AshbrookLoopScramble":{
 		"series":"dirt",
@@ -387,7 +387,7 @@
 	"LakehurstWoodlandScramble":{
 		"series":"dirt",
 		"name": "Lakehurst Woodland Scramble",
-		"info":""
+		"info":"First half tarmac, second half dirt."
 	},
 	"MoorheadRallyTrail":{
 		"series":"dirt",
